@@ -9,4 +9,3 @@ from .models import Cliente
 class ClientViewSet(viewsets.ModelViewSet):
     queryset = Cliente.objects.all().order_by('nome')
     serializer_class = ClientSerializer
-    permission_classes = [permissions.IsAuthenticated]
