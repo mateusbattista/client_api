@@ -4,6 +4,6 @@ Uma API para cadastro simples de clientes interessados nos seviços da Lógica S
 
 ## Instalação
 
-Tenha certeza que o docker-compose está instalado, caso contrário instale o mesmo. Uma vez instalado rode o comando
+Tenha certeza que o docker-compose e o docker estão instalados, caso contrário instale ambos. Uma vez instalado rode o comando
 
 docker-compose up --build
